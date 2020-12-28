@@ -39,12 +39,3 @@ cacheSolve <- function(x, ...) {
         x$setinverse(invx)
         invx
 }
-
-A <- matrix( c(5, 1, 0,
-               3,-1, 2,
-               4, 0,-1), nrow=3, byrow=TRUE)
-
-#inv(A)
-
-
-makeCacheMatrix(A)
